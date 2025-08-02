@@ -1,0 +1,17 @@
+/* Reset do CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(rgb(191, 122, 238) , blue);
+    
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
