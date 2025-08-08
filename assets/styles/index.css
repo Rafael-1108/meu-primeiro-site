@@ -1,17 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
 /* Reset do CSS */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-h1,
-p {
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Mozilla Text";
 }
 
 header {
     background: linear-gradient(rgb(191, 122, 238) , blue);
-    
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(209, 208, 208);
+    flex: 1;
+    padding: 48px 38px;
+    width: 100%;
+}
+
+about-section {
+    display: block;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 11px;
+}
+
+.texto-sobre-mim{
+    font-size: 20px;
+    
+}
+
+#titulo-sobre-mim {
+    font-size: 30px;
+    border-bottom: 2px solid rgb(1, 118, 196);
 }
