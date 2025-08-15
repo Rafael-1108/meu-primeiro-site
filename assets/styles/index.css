@@ -138,3 +138,7 @@ footer {
     padding: 2rem;
     width: 100%
 }
+
+footer p {
+    font-size: 20px;
+}
