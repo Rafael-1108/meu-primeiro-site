@@ -146,3 +146,52 @@ footer p {
 a {
     text-align: center;
 }
+
+/* Responsividade para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    
+    header {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    about-section,
+    hobbies,
+    contact {
+        width: 95%; /* Ocupa quase a tela inteira */
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    ul {
+        flex-direction: column; /* Faz com que os itens da lista fiquem em coluna */
+        gap: 15px;
+    }
+
+    li {
+        min-width: auto;
+        width: 100%;
+    }
+
+    contact a {
+        display: block; /* Cada link ocupa uma linha */
+        margin: 10px 0;
+    }
+
+    contact h2,
+    #titulo-sobre-mim,
+    #titulo-hobbies {
+        font-size: 1.5rem;
+    }
+}
